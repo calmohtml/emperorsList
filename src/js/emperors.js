@@ -6,7 +6,7 @@ const fetchData = () => {
       return response.json();
     })
     .then((array) => {
-      const ul = document.querySelector("#list");
+      const ul = document.querySelector("#emperors__list");
       const allTheTags = [];
 
       array.forEach((emperor) => {
@@ -14,9 +14,13 @@ const fetchData = () => {
         title.textContent = emperor.name;
         title.classList.add("emperor__name");
 
+        const figure = document.createElement("figure");
+        figure.classList.add("emperor__image--container");
+
         const image = document.createElement("img");
         image.src = emperor.image;
         image.classList.add("emperor__image");
+        figure.append(image);
 
         const city = document.createElement("h2");
         city.textContent = emperor.city;
@@ -29,7 +33,7 @@ const fetchData = () => {
         const li = document.createElement("li");
         li.classList.add("emperor__item");
 
-        li.append(title, image, city, text);
+        li.append(title, figure, city, text);
         allTheTags.push(li);
       });
       ul.append(...allTheTags);

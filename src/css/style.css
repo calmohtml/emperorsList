@@ -7,3 +7,47 @@
 html {
   font-size: 62.5%;
 }
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.container__title {
+  text-align: center;
+  padding: 1rem;
+}
+
+.emperors__list {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.emperor__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* .emperor__name {
+
+} */
+
+.emperor__image--container {
+  display: flex;
+  justify-content: center;
+}
+
+.emperor__image {
+  display: flex;
+  justify-content: center;
+  max-width: 80vw;
+}
+
+/* .emperor__city {
+
+} */
+
+/* .emperor__text {
+
+} */

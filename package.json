@@ -1,0 +1,19 @@
+{
+  "name": "snowpacktemplate",
+  "version": "1.0.0",
+  "description": "A template of Snowpack with JavaScript ready to use",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Snowpack"
+  ],
+  "author": "calmohtml",
+  "license": "ISC",
+  "devDependencies": {
+    "snowpack": "^3.5.6"
+  }
+}

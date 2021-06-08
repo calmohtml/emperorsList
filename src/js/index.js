@@ -1,4 +1,7 @@
 "use strict";
 
-import { helloWorld } from "./helloWorld";
-helloWorld();
+import { fetchData } from "./emperors.js";
+
+window.addEventListener("DOMContentLoaded", () => {
+  fetchData();
+});

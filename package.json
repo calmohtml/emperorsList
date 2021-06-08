@@ -1,7 +1,7 @@
 {
-  "name": "snowpacktemplate",
+  "name": "emperorslist",
   "version": "1.0.0",
-  "description": "A template of Snowpack with JavaScript ready to use",
+  "description": "A emperors app with JavaScript",
   "main": "index.js",
   "scripts": {
     "start": "snowpack dev",

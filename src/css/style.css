@@ -1,3 +1,5 @@
+@import "./variables.css";
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +8,17 @@
 
 html {
   font-size: 62.5%;
+}
+
+body {
+  font-family: var(--fontText);
+  background-color: var(--background);
+  color: var(--text);
+}
+
+h1,
+h2 {
+  font-family: var(--title);
 }
 
 .container {
@@ -18,15 +31,19 @@ html {
   padding: 1rem;
 }
 
-.emperors__list {
+#emperors__list {
   display: grid;
   grid-template-columns: 1fr;
+  grid-gap: 1rem;
 }
 
 .emperor__item {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 2rem;
+  background-color: var(--emperorBackground);
+  border: 0.3rem solid var(--auxColor);
 }
 
 /* .emperor__name {
@@ -36,12 +53,14 @@ html {
 .emperor__image--container {
   display: flex;
   justify-content: center;
+  margin: 1rem 0;
 }
 
 .emperor__image {
   display: flex;
   justify-content: center;
-  max-width: 80vw;
+  border-radius: 11rem;
+  border: 0.3rem solid var(--text);
 }
 
 /* .emperor__city {
@@ -51,3 +70,9 @@ html {
 /* .emperor__text {
 
 } */
+
+@media (min-width: 1024px) and (max-width: 3840px) {
+  #emperors__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

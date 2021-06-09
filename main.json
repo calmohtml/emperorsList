@@ -3,21 +3,21 @@
     "id": 1,
     "name": "Julius Caesar",
     "city": "Rome",
-    "image": "https://historylearning.com/fileadmin/_processed_/csm_Julius_Caesar_Coustou_Louvre_MR1798_49bcea2f49.jpg",
+    "image": "https://www.famousbirthdays.com/headshots/julius-caesar-5.jpg",
     "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur perferendis eos corporis ex in culpa."
   },
   {
     "id": 2,
     "name": "Alexander III of Macedon",
     "city": "Pella",
-    "image": "https://www.history.org.uk/library/1606/0000/0064/alexander_the_great_bust.jpg",
+    "image": "https://gradcontent.com/lib/300x300/alexander_the_great_statue.jpg",
     "text": "Sit amet consectetur adipisicing elit. Quo aliquid magnam animi, neque laborum libero ipsum nihil? Necessitatibus explicabo quis laudantium odit architecto fuga sunt."
   },
   {
     "id": 3,
     "name": "Napoleon Bonaparte",
     "city": "Corsica",
-    "image": "https://www.biographyonline.net/wp-content/uploads/2014/05/Napoleon1.jpg",
+    "image": "https://www.famousbirthdays.com/headshots/napoleon-bonaparte-4.jpg",
     "text": "Consectetur dipisicing elit. Delectus quod hic sit quas dolor dicta nesciunt harum laboriosam inventore modi, amet cumque doloremque officia rem tenetur, atque ea quidem!"
   }
 ]

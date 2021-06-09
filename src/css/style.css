@@ -44,6 +44,7 @@ h2 {
   padding: 2rem;
   background-color: var(--emperorBackground);
   border: 0.3rem solid var(--auxColor);
+  border-radius: 2rem;
 }
 
 /* .emperor__name {
